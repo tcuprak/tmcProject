@@ -21,6 +21,8 @@ class PlayerGameStatus {
 	public String toString() {
 		return "PlayerGameStatus [  ${player}  :  ${game}  :  ${status} ]";
 	}
+	
+	// new change
 
 
 	public PlayerGameStatus(Player player, Game game, String status) {
