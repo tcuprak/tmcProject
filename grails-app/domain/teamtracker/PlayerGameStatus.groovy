@@ -13,7 +13,7 @@ class PlayerGameStatus {
 
 
 	static constraints = {
-		status(inList:PlayerGameStatusService.statusType.keySet().asType(List.class))
+		//status(inList:PlayerGameStatusService.statusType.keySet().asType(List.class))
 	}
 
 
@@ -22,13 +22,11 @@ class PlayerGameStatus {
 		return "PlayerGameStatus [  ${player}  :  ${game}  :  ${status} ]";
 	}
 	
-	// new change
-
 
 	public PlayerGameStatus(Player player, Game game, String status) {
 		super();
-		this.player = player;
-		this.game = game;
+		player.addToGameStatus(this);
+		game.addToPlayerStatus(this)
 		this.status = status;
 	}
 	public PlayerGameStatus() {

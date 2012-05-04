@@ -86,6 +86,8 @@ class BootStrap {
 		ourthings <<p3
 		ourthings <<p4
 		
+		def pgs1 = new PlayerGameStatus(p2, g1,"Playing");
+		
 		
 
 
