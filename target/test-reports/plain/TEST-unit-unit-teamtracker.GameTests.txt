@@ -1,0 +1,17 @@
+Testsuite: teamtracker.GameTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 1.252 sec
+------------- Standard Output ---------------
+--Output from testCreateValidGame--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testCreateValidGame--
+------------- ---------------- ---------------
+
+Testcase: testCreateValidGame took 1.22 sec
+	Caused an ERROR
+null
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameTests.testCreateValidGame(GameTests.groovy:28)
+

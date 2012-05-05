@@ -19,7 +19,6 @@ class Game {
 	static mapping = {
 		opponent1 lazy:false
 		
-		playerStatus cascade: "all-delete-orphan"
 
 	}
 
