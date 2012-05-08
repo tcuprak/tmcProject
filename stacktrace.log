@@ -973,3 +973,1737 @@ java.lang.IllegalArgumentException
 	at java.util.Date.parse(Date.java:615)
 	at java.util.Date.<init>(Date.java:272)
 	at teamtracker.GameTests.testCreateValidGame(GameTests.groovy:28)
+2012-05-07 20:47:29,303 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@3f961187 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value #val for the field '#field' produces #error error (GameSpec.groovy:33)
+2012-05-07 20:47:29,374 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@3f961187 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value #val for the field '#field' produces #error error (GameSpec.groovy:33)
+2012-05-07 20:47:29,414 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@3f961187 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value #val for the field '#field' produces #error error (GameSpec.groovy:33)
+2012-05-07 20:47:29,414 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@3f961187 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value #val for the field '#field' produces #error error (GameSpec.groovy:33)
+2012-05-07 20:47:29,429 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@3f961187 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value #val for the field '#field' produces #error error (GameSpec.groovy:33)
+2012-05-07 20:47:29,434 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@3f961187 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value #val for the field '#field' produces #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,392 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+error == obj.errors[field]
+|     |  |   |     ||
+|     |  |   |     |date
+|     |  |   |     nullable
+|     |  |   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|     |  |   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|     |  teamtracker.Game@4b712592 (renderer threw NullPointerException)
+|     false
+|     7 differences (12% similarity)
+|     n(o      )
+|     n(ullable)
+no      
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:33)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,402 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+error == obj.errors[field]
+|     |  |   |     ||
+|     |  |   |     |date
+|     |  |   |     nullable
+|     |  |   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|     |  |   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|     |  teamtracker.Game@4b712592 (renderer threw NullPointerException)
+|     false
+|     7 differences (12% similarity)
+|     n(o      )
+|     n(ullable)
+no      
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:33)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,437 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+error == obj.errors[field]
+|     |  |   |     ||
+|     |  |   |     |date
+|     |  |   |     nullable
+|     |  |   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|     |  |   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|     |  teamtracker.Game@4b712592 (renderer threw NullPointerException)
+|     false
+|     7 differences (12% similarity)
+|     n(o      )
+|     n(ullable)
+no      
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:33)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,437 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+error == obj.errors[field]
+|     |  |   |     ||
+|     |  |   |     |date
+|     |  |   |     nullable
+|     |  |   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|     |  |   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|     |  teamtracker.Game@4b712592 (renderer threw NullPointerException)
+|     false
+|     7 differences (12% similarity)
+|     n(o      )
+|     n(ullable)
+no      
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:33)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,442 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+error == obj.errors[field]
+|     |  |   |     ||
+|     |  |   |     |date
+|     |  |   |     nullable
+|     |  |   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|     |  |   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|     |  teamtracker.Game@4b712592 (renderer threw NullPointerException)
+|     false
+|     7 differences (12% similarity)
+|     n(o      )
+|     n(ullable)
+no      
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:33)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,447 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+error == obj.errors[field]
+|     |  |   |     ||
+|     |  |   |     |date
+|     |  |   |     nullable
+|     |  |   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|     |  |   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|     |  teamtracker.Game@4b712592 (renderer threw NullPointerException)
+|     false
+|     7 differences (12% similarity)
+|     n(o      )
+|     n(ullable)
+no      
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:33)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,632 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@44a41e10 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,632 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@44a41e10 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@44a41e10 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@44a41e10 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@44a41e10 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:53:21,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@44a41e10 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:01,809 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |date
+||   |     nullable
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|teamtracker.Game@50c09dc5 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:01,819 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |date
+||   |     nullable
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|teamtracker.Game@50c09dc5 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:01,854 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |date
+||   |     nullable
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|teamtracker.Game@50c09dc5 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:01,854 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |date
+||   |     nullable
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|teamtracker.Game@50c09dc5 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:01,864 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |date
+||   |     nullable
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|teamtracker.Game@50c09dc5 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:01,864 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |date
+||   |     nullable
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+|teamtracker.Game@50c09dc5 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:02,095 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@3eaa564 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:02,097 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@3eaa564 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:02,099 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@3eaa564 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:02,099 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@3eaa564 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:02,100 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@3eaa564 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:55:02,100 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!obj.errors[field]
+||   |     ||
+||   |     |result
+||   |     inList
+||   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 2 errors
+||   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+||   Field error in object 'teamtracker.Game' on field 'result': rejected value [forfiet]; codes [teamtracker.Game.result.inList.error.teamtracker.Game.result,teamtracker.Game.result.inList.error.result,teamtracker.Game.result.inList.error.java.lang.String,teamtracker.Game.result.inList.error,game.result.inList.error.teamtracker.Game.result,game.result.inList.error.result,game.result.inList.error.java.lang.String,game.result.inList.error,teamtracker.Game.result.not.inList.teamtracker.Game.result,teamtracker.Game.result.not.inList.result,teamtracker.Game.result.not.inList.java.lang.String,teamtracker.Game.result.not.inList,game.result.not.inList.teamtracker.Game.result,game.result.not.inList.result,game.result.not.inList.java.lang.String,game.result.not.inList,not.inList.teamtracker.Game.result,not.inList.result,not.inList.java.lang.String,not.inList]; arguments [result,class teamtracker.Game,forfiet,[scheduled, win, loss, tie, forfeit]]; default message [Property [{0}] of class [{1}] with value [{2}] is not contained within the list [{3}]]
+|teamtracker.Game@3eaa564 (renderer threw NullPointerException)
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:36)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:33)
+2012-05-07 20:58:07,042 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:41)
+2012-05-07 20:58:07,042 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:41)
+2012-05-07 20:58:07,047 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:41)
+2012-05-07 20:58:07,047 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:41)
+2012-05-07 20:58:07,052 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:41)
+2012-05-07 20:58:07,052 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:41)
+2012-05-07 21:05:55,825 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,828 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,830 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,830 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,837 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,837 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,891 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,891 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,891 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,891 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,891 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,891 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,927 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,927 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,927 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,927 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,927 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,927 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,957 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,957 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,957 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,957 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,962 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,962 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,997 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,997 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,997 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,997 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,997 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:55,997 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,027 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,027 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,027 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,027 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,027 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,027 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,052 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,057 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,057 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,057 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,057 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,057 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,077 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,077 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,077 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,077 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,077 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,077 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,107 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,107 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,107 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,107 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,107 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:05:56,107 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,131 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,136 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,136 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,136 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,147 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,147 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,207 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,212 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,212 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,212 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,212 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,212 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,242 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,242 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,242 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,242 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,247 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,247 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,282 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,282 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,287 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,287 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,287 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,287 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,327 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,327 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,327 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,327 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,327 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,327 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,397 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,397 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,397 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,402 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,402 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,402 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,442 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,442 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,442 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,442 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,442 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:09:09,442 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,415 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,415 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,421 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,421 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,426 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,426 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,501 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,501 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,501 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,501 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,506 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,506 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,546 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,546 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,546 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,551 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,551 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,551 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,586 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,586 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,586 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,586 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,586 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,586 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,621 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,621 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,621 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,621 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,621 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,621 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,661 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,661 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,666 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,666 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,666 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,666 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,696 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,701 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,701 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,701 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,701 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,701 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,726 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,726 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:12:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,112 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,117 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,117 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,117 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,128 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,128 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,188 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,188 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,193 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,193 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,193 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,193 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,228 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,233 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,233 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,233 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,233 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,233 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,268 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,268 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,268 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,268 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,268 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,268 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,303 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,303 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,303 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,303 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,303 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,303 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,338 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,338 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,339 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,339 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,339 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,339 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,375 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,376 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,377 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,378 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,378 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:13:41,378 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException
+	at java.util.Date.parse(Date.java:615)
+	at java.util.Date.<init>(Date.java:272)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:29)
+2012-05-07 21:16:54,190 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@207ad654 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:16:54,199 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@207ad654 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:16:54,221 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@207ad654 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:16:54,222 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@207ad654 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:16:54,228 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@207ad654 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:16:54,229 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@207ad654 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:18:32,776 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@7aae7500 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:18:32,781 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@7aae7500 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:18:32,801 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@7aae7500 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:18:32,801 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@7aae7500 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:18:32,811 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@7aae7500 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:18:32,811 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@7aae7500 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:19:12,251 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@44283198 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:19:12,256 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@44283198 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:19:12,281 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@44283198 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:19:12,281 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@44283198 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:19:12,286 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@44283198 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:19:12,286 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |result
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 1 errors
+|   Field error in object 'teamtracker.Game' on field 'date': rejected value [null]; codes [teamtracker.Game.date.nullable.error.teamtracker.Game.date,teamtracker.Game.date.nullable.error.date,teamtracker.Game.date.nullable.error.java.util.Date,teamtracker.Game.date.nullable.error,game.date.nullable.error.teamtracker.Game.date,game.date.nullable.error.date,game.date.nullable.error.java.util.Date,game.date.nullable.error,teamtracker.Game.date.nullable.teamtracker.Game.date,teamtracker.Game.date.nullable.date,teamtracker.Game.date.nullable.java.util.Date,teamtracker.Game.date.nullable,game.date.nullable.teamtracker.Game.date,game.date.nullable.date,game.date.nullable.java.util.Date,game.date.nullable,nullable.teamtracker.Game.date,nullable.date,nullable.java.util.Date,nullable]; arguments [date,class teamtracker.Game]; default message [Property [{0}] of class [{1}] cannot be null]
+teamtracker.Game@44283198 (renderer threw NullPointerException)
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:32)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:22:06,228 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!validated
+||
+|true
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:31)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:22:06,234 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!validated
+||
+|true
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:31)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:22:06,259 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!validated
+||
+|true
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:31)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:22:06,259 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!validated
+||
+|true
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:31)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:22:06,265 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!validated
+||
+|true
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:31)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)
+2012-05-07 21:22:06,266 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!validated
+||
+|true
+false
+
+	at teamtracker.ConstraintUnitSpec.checkExpectedError(ConstraintUnitSpec.groovy:31)
+	at teamtracker.GameSpec.Verify Game constraints: The value '#val' for the field '#field' results in  #error error (GameSpec.groovy:35)

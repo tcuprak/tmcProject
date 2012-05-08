@@ -1,5 +1,11 @@
 package teamtracker
 
+/** 
+ * A Game has a place and time and an opponent.
+ * 
+ * @author mom
+ *
+ */
 class Game {
 
 	Date date
@@ -39,12 +45,11 @@ class Game {
 
 	static constraints = {
 		date(nullable:false)
-		opponent1(nullable:true)
-		
+		opponent1(nullable:true)		
 		location(nullable:true)
 		field(nullable:true)
 		weAreHomeTeam(nullable:true)
-		result(inList:[
+		result(nullable:true, inList:[
 			"scheduled",
 			"win",
 			"loss",

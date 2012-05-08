@@ -1,0 +1,40 @@
+Testsuite: teamtracker.GameSpec
+Tests run: 11, Failures: 0, Errors: 0, Time elapsed: 1.633 sec
+------------- Standard Output ---------------
+--Output from Verify Game constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game constraints: The value 'null' for the field 'date' results in  nullable error --
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Verify Game constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game constraints: The value 'null' for the field 'date' results in  nullable error --
+------------- ---------------- ---------------
+
+Testcase: Verify Game constraints: The value 'null' for the field 'result' results in  no error  took 1.206 sec
+Testcase: Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error  took 0.041 sec
+Testcase: Verify Game constraints: The value 'win' for the field 'result' results in  no error  took 0.042 sec
+Testcase: Verify Game constraints: The value 'loss' for the field 'result' results in  no error  took 0.043 sec
+Testcase: Verify Game constraints: The value 'tie' for the field 'result' results in  no error  took 0.044 sec
+Testcase: Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error  took 0.041 sec
+Testcase: Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error  took 0.056 sec
+Testcase: Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error  took 0.031 sec
+Testcase: Verify Game constraints: The value 'x' for the field 'result' results in  inList error  took 0.03 sec
+Testcase: Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error  took 0.025 sec
+Testcase: Verify Game constraints: The value 'null' for the field 'date' results in  nullable error  took 0.025 sec

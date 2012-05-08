@@ -22,22 +22,34 @@ class GameSpec extends ConstraintUnitSpec {
         mockForConstraintsTests(Game, [new Game(result:"unknown")])
     }
 	
-	
+	/** Verify that the constraints placed on the creation of the Game domain object are enforced.  Did not check nullable:true  */
 	@Unroll()
-    def "test Game all constraints #field is #error"() {
+    def "Verify Game domain constraints: The value '#val' for the field '#field' results in  #error error "() {
 		
-        when:
+		
+		given:
         def obj = new Game("$field": val)
+		
 
-        then:
-        validateConstraints(obj, field, error)
+        when:
+        checkExpectedError(obj, field, error)
+		
+		then: "assertion is true"
 
         where:
+		
         error                  | field     | val
-		'nullable'             | 'result'  | null
-		'valid'                | 'result'  | 'scheduled'
+		'no'                   | 'result'  | null
+		'no'                   | 'result'  | 'scheduled'
+		'no'                   | 'result'  | 'win'
+		'no'                   | 'result'  | 'loss'
+		'no'                   | 'result'  | 'tie'
+		'no'                   | 'result'  | 'forfeit'	
 		'inList'               | 'result'  | 'unknown'
-        
+		'inList'               | 'result'  | 'a very long string '
+		'inList'               | 'result'  | "x"
+		'no'                   | 'date'    | new Date()  
+		'nullable'             | 'date'    | null
     }
 
    

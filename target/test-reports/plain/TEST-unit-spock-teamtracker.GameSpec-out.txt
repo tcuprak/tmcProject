@@ -1,0 +1,11 @@
+--Output from Verify Game constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game constraints: The value 'null' for the field 'date' results in  nullable error --

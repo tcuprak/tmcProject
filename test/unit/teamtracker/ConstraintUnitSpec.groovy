@@ -2,7 +2,7 @@ package teamtracker
 
 import spock.lang.Specification
 
-// down loaded from GIT  ctoestreich / grails-spock-constraints
+// utility class originally down loaded from Github  ctoestreich / grails-spock-constraints
 abstract class ConstraintUnitSpec extends Specification {
 
 	String getLongString(Integer length) {
@@ -23,12 +23,15 @@ abstract class ConstraintUnitSpec extends Specification {
 		valid ? "4111111111111111" : "41014"
 	}
 
-	void validateConstraints(obj, field, error) {
+	void checkExpectedError(obj, field, error) {
 		def validated = obj.validate()
-		if (error && error != 'valid') {
+		
+		// did we get the expected error?
+		if (error && error != 'no') {
 			assert !validated
 			assert obj.errors[field]
 			assert error == obj.errors[field]
+	    // are we error free?		
 		} else {
 			assert !obj.errors[field]
 		}
