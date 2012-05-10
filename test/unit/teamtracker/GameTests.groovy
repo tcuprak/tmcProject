@@ -26,10 +26,14 @@ class GameTests {
 
    @Test public void testCreateValidGame() {
        def uut =Game.build(date: new Date("01/01/2012"))
-	   System.out.println(uut);
-	   assert(uut.toString().equals("01/01/12 at 12:00 AM vs. null"))
+	   assert(uut.toString().equals("01/01/12 at 12:00 AM vs. null"))	   
+    }
+   
+   @Test public void testDefaultLocationIsTbd() {
+	   def uut =Game.build(date: new Date("01/01/2012"))
+	   assert(uut.getLocation().equals("TBD"))
 
 	   
-    }
+	}
 }
 

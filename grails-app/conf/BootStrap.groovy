@@ -88,6 +88,10 @@ class BootStrap {
 		
 		def pgs1 = new PlayerGameStatus(p2, g1,"Playing");
 		
+		println "***creating a new game after players exist"
+		def g9= new Game(date:new Date('8/30/2011')  , opponent1:opp3).save()
+		ourthings << g9
+		
 		
 
 

@@ -1,0 +1,118 @@
+package teamtracker
+
+import static org.junit.Assert.*
+import grails.test.mixin.domain.DomainClassUnitTestMixin
+
+//import grails.test.mixin.*
+import grails.test.mixin.support.*
+//import org.junit.*
+import grails.buildtestdata.mixin.Build
+
+import spock.lang.Unroll
+
+/**
+ * See the API for {@link grails.test.mixin.support.GrailsUnitTestMixin} for usage instructions
+ */
+//@TestMixin(GrailsUnitTestMixin)
+@TestFor(PlayerGameStatus)
+@TestMixin(DomainClassUnitTestMixin)
+class PlayerGameStatusSpec extends ConstraintUnitSpec {
+
+	def setup() {
+		//mock a game with some data
+		mockForConstraintsTests(PlayerGameStatus, [new PlayerGameStatus()])
+	}
+
+	/** Verify that the constraints placed on the creation of the Game domain object are enforced.  Did not check nullable:true  */
+	@Unroll()
+	def "Verify PlayerGameStatus domain constraints: The value '#val' for the field '#field' results in  #error error "() {
+
+		//---------------------- create UUT using table values
+		given:
+
+		def obj = new PlayerGameStatus("$field": val)
+
+		//---------------------- use util class to assert correct error
+		when:
+		checkExpectedError(obj, field, error)
+
+		//----------------------
+		then: "assertion is true"
+
+		//----------------------  test constraints for status
+		where:
+
+		error                  | field     | val
+
+		'no'                   | 'status'  | 'Unsure'
+		'no'                   | 'status'  | 'Playing'
+		'no'                   | 'status'  | 'Available'
+		'no'                   | 'status'  | 'Subbing'
+		'no'                   | 'status'  | 'Unknown'
+		'no'                   | 'status'  | 'NotPlaying'
+
+		'inList'               | 'status'  | 'NotAStatus'
+		'nullable'             | 'status'  | null
+
+	}
+
+
+	def "Verify that status associates to Player and Game"() {
+
+		//---------------------- create UUT using a static date
+		given:
+		def Date testDate = new Date("1/1/2011")
+		mockDomain(Player,[[firstName:"jenny"]])
+		mockDomain(Game, [[date:testDate]])
+
+		Game game= Game.findByDate(testDate)
+		Player player= Player.findByFirstName("jenny")
+	
+
+		def  PlayerGameStatus uut;
+
+		//---------------------- use util class to assert correct error
+		when:
+		uut = new PlayerGameStatus(player, game, "Subbing").save()
+	
+
+		//----------------------
+		then:
+		// retrieve from DB
+		Game gameResult= Game.findByDate(testDate)
+		Player playerResult= Player.findByFirstName("jenny")
+		// verify that the uut was added to each collection
+		assert (gameResult.playerStatus.contains(uut))
+		assert (playerResult.gameStatus.contains(uut))
+		
+
+	}
+	def "Verify that each player and game combination is unique ( no duplicate statuses  )"() {
+		
+		// need to write this test and implement a solution ... current implementation allows this
+		
+	}
+	
+	//
+	//
+	//	def "Verify Game string is in correct format"() {
+	//
+	//		//---------------------- create UUT using a static date
+	//		given:
+	//
+	//		def  Game  uut = new Game(date: new Date("1/2/2011"), opponent:new Opponent(name:'Chicos Bail Bonds'))
+	//
+	//		//----------------------
+	//		when:
+	//		def result = uut.toString();
+	//
+	//		//----------------------
+	//		then:
+	//		result.equals("01/02/11 at 12:00 AM vs. Chicos Bail Bonds")
+	//
+	//
+	//	}
+
+
+
+}

@@ -1,41 +1,28 @@
 package teamtracker
 
+/** Maintains the many-to-many relationship of the status for every player for every game */
 class PlayerGameStatus {
 
-	
-
 	String status
-	
-
-	
 	static belongsTo=[player:Player, game:Game]
-
-
-
+ 
 	static constraints = {
-		//status(inList:PlayerGameStatusService.statusType.keySet().asType(List.class))
-	}
-
+		status(inList:PlayerGameStatusService.statusType.keySet().asType(List.class))
+	}  
 
 	@Override
 	public String toString() {
-		return "PlayerGameStatus [  ${player}  :  ${game}  :  ${status} ]";
+		return "PlayerGameStatus [  ${this.player.firstName}  :  ${this.game.date}  :  ${status} ]";
 	}
-	
+
 
 	public PlayerGameStatus(Player player, Game game, String status) {
 		super();
-		player.addToGameStatus(this);
-		game.addToPlayerStatus(this)
-		this.status = status;
+		this.player = player
+		this.game = game
+		this.status = status
 	}
 	public PlayerGameStatus() {
 		super();
 	}
-
-
-
-
-
-
 }

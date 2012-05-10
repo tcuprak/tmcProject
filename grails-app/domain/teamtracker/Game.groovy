@@ -9,11 +9,11 @@ package teamtracker
 class Game {
 
 	Date date
-	Opponent opponent1
+	Opponent opponent
 	String location = "TBD"
 	String field
 	Boolean weAreHomeTeam
-	String result = "scheduled"
+	String result
 	String notes
 	
 	static hasMany = [playerStatus:PlayerGameStatus]
@@ -23,16 +23,14 @@ class Game {
 	// not a big performance hit and
 	// if we don't, toString will break
 	static mapping = {
-		opponent1 lazy:false
-		
-
+		opponent lazy:false
 	}
 
 
 	String toString(){
 		def dateStr = date.format('MM/dd/yy')
-		def startTimeStr = date.format("hh:mm a")
-		"$dateStr at $startTimeStr vs. $opponent1"
+		def startTimeStr = startTime()
+		"$dateStr at $startTimeStr vs. $opponent"
 	}
 	String startTime(){
 		def startTimeStr = date.format("hh:mm a")
@@ -45,7 +43,7 @@ class Game {
 
 	static constraints = {
 		date(nullable:false)
-		opponent1(nullable:true)		
+		opponent(nullable:true)		
 		location(nullable:true)
 		field(nullable:true)
 		weAreHomeTeam(nullable:true)
@@ -62,24 +60,21 @@ class Game {
 
 	/**  After inserting a new game, make sure we create the PlayerGameStatus that we need for all existing players */
 
-//	def afterInsert() {
-//		this.withNewSession() {session ->
-//			def allPlayers = Player.list()
-//			println "in afterinsert   domain is Game ${this}"
-//
-//			allPlayers.each {
-//
-//				def status = new PlayerGameStatus( it,this, "Unknown")
-//				//status.setGame(this)
-//				//status.setPlayer(it)
-//				//status.setStatus(playerGameStatusService.defaultStatus())
-//				//status.setStatus("Unknown")
-//				println(  " ${it} updating === ${status} ")
-//				status.save()
-//				println(  " ${it} update done === ${status} ")
-//			}
-//		}
-//	}
+	def afterInsert() {
+		this.withNewSession() {session ->
+			def allPlayers = Player.list()
+			println "in afterinsert   domain is Game ${this}"
+
+			allPlayers.each {
+
+				def status = new PlayerGameStatus( it,this, "Unknown")
+
+				println(  " ${it} updating === ${status} ")
+				status.save()
+				println(  " ${it} update done === ${status} ")
+			}
+		}
+	}
 
 	/** TBD -- use cascading deletes correctly
 	 * Before deleting a game, make sure we delete the PlayerGameStatus that we need for all existing players */

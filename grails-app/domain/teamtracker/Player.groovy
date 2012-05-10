@@ -8,29 +8,26 @@ class Player {
 	String phone
 	String email
 
-	String status ="sub"
+	String playerType ="sub"
 	Date dateJoined
 	Date birthday
 	String playerNotes
 	
-	// many-to-many relationship with status
+	// many-to-many relationship with Games indicates status for a specific game
 	static hasMany = [gameStatus:PlayerGameStatus]
 
 	String toString(){
-		"$firstName, $lastName ($status)"
+		"$firstName, $lastName ($playerType)"
 	}
 
 	// inject service into this domain class
-	//def playerGameStatusService
+	def playerGameStatusService
    
-	
-//	static mapping = {		
-//		gameStatus cascade: "all-delete-orphan" 
-//	}
+
 	static constraints = {
 		firstName(nullable:false)
 		lastName(nullable:true)
-		status (inList:[
+		playerType (inList:[ 
 			"active",
 			"sub",
 			"alternate",
@@ -44,26 +41,28 @@ class Player {
 		
 		
 	}
-//
-//	/** After inserting a newly created Player, it is necessary that we 
-//	 * provide status for that player for all existing games.  
-//	 * We have to create a separate database session because this player is 
-//	 * attached to a transient PlayerGameStatus */	
-//	def afterInsert() {
-//		println("create player game status for all games for this player after insert player ${this}")
-//		PlayerGameStatus.withNewSession() {session ->
-//			def allGames = Game.list()
-//			println("ready to update ${allGames.size()} games")
-//
-//			allGames.each {
-//				def playerGameStatus = new PlayerGameStatus( this,it,playerGameStatusService.defaultStatus())
-//
-//				print("saving default game status: ${it.id} --> ${this.firstName}  .... ")
-//				playerGameStatus.save(failOnError:true)
-//				println "  ${this.firstName}  is updated"
-//			}
-//		}
-//	}
+
+	/** After inserting a newly created Player, it is necessary that we 
+	 * provide status for that player for all existing games.  
+	 * We have to create a separate database session because this player is 
+	 * attached to a transient PlayerGameStatus */	
+	def afterInsert() {
+		println("create player game status for all games for this player after insert player ${this}")
+		PlayerGameStatus.withNewSession() {session ->
+			def allGames = Game.list()
+			println("ready to update ${allGames.size()} games")
+
+			allGames.each {
+				// why is this call to this service limited to 8 calls ???  the app hangs after that number
+				//def playerGameStatus = new PlayerGameStatus( this,it,playerGameStatusService.defaultStatus())
+				def playerGameStatus = new PlayerGameStatus( this,it,"Unknown")
+
+				print("saving default game status: ${it.id} --> ${this.firstName}  .... ")
+				playerGameStatus.save(failOnError:true)
+				println "  ${this.firstName}  is updated"
+			}
+		}
+	}
 
 //	/** TBD -- use cascading deletes correctly
 //	 * Before deleting a game, make sure we delete the PlayerGameStatus that we need for all existing players */
