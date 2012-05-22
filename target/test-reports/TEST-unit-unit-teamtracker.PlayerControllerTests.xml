@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="mom-PC" name="teamtracker.PlayerControllerTests" tests="8" time="1.328" timestamp="2012-05-22T03:05:42">
+  <properties />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testList" time="0.561" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testIndex" time="0.096" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testCreate" time="0.078" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testSave" time="0.125" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testUpdate" time="0.109" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testShow" time="0.078" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testEdit" time="0.062" />
+  <testcase classname="teamtracker.PlayerControllerTests" name="testDelete" time="0.078" />
+  <system-out><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+--Output from testUpdate--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+]]></system-out>
+  <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

@@ -7,6 +7,11 @@ class PlayerGameStatus {
 	static belongsTo=[player:Player, game:Game]
  
 	static constraints = {
+		game(nullable:false)
+		
+		// do not allow the same player/game to create a duplicate record
+		player (unique: 'game', nullable:false)
+
 		status(inList:PlayerGameStatusService.statusType.keySet().asType(List.class))
 	}  
 

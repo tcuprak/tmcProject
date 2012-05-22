@@ -1,2 +1,316 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="0" name="GameSpec" package="teamtracker" tests="13" time="0.533" timestamp="2012-05-22T03:05:45">
+      <properties />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game string is in correct format" time="0.246" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game date is in correct format" time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;null&apos; for the field &apos;result&apos; results in  no error " time="0.015" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;scheduled&apos; for the field &apos;result&apos; results in  no error " time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;win&apos; for the field &apos;result&apos; results in  no error " time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;loss&apos; for the field &apos;result&apos; results in  no error " time="0.015" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;tie&apos; for the field &apos;result&apos; results in  no error " time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;forfeit&apos; for the field &apos;result&apos; results in  no error " time="0.015" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;unknown&apos; for the field &apos;result&apos; results in  inList error " time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;a very long string &apos; for the field &apos;result&apos; results in  inList error " time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;x&apos; for the field &apos;result&apos; results in  inList error " time="0.015" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;Mon May 21 20:05:45 MST 2012&apos; for the field &apos;date&apos; results in  no error " time="0.016" />
+
+      <testcase classname="teamtracker.GameSpec" name="Verify Game domain constraints: The value &apos;null&apos; for the field &apos;date&apos; results in  nullable error " time="0.015" />
+
+      <system-out><![CDATA[--Output from Verify Game string is in correct format--
+--Output from Verify Game date is in correct format--
+--Output from Verify Game domain constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'Mon May 21 20:05:45 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game domain constraints: The value 'null' for the field 'date' results in  nullable error --
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Verify Game string is in correct format--
+--Output from Verify Game date is in correct format--
+--Output from Verify Game domain constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'Mon May 21 20:05:45 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game domain constraints: The value 'null' for the field 'date' results in  nullable error --
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="1" name="PlayerGameStatusSpec" package="teamtracker" tests="10" time="0.452" timestamp="2012-05-22T03:05:45">
+      <properties />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify that each player and game combination is unique ( no duplicate statuses  )" time="0.218" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify that status associates to Player and Game" time="0.063" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Unsure&apos; for the field &apos;status&apos; results in  no error " time="0.015" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Playing&apos; for the field &apos;status&apos; results in  no error " time="0.032" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Available&apos; for the field &apos;status&apos; results in  no error " time="0.031" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Subbing&apos; for the field &apos;status&apos; results in  no error " time="0.015" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Unknown&apos; for the field &apos;status&apos; results in  no error " time="0.016" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;NotPlaying&apos; for the field &apos;status&apos; results in  no error " time="0.016" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;NotAStatus&apos; for the field &apos;status&apos; results in  inList error " time="0.015" />
+
+      <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;null&apos; for the field &apos;status&apos; results in  nullable error " time="0.016" />
+
+      <system-out><![CDATA[--Output from Verify that each player and game combination is unique ( no duplicate statuses  )--
+in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
+create player game status for all games for this player after insert player Yvonne, null (sub)
+ready to update 1 games
+saving default game status: 1 --> Yvonne  ....   Yvonne  is updated
+--Output from Verify that status associates to Player and Game--
+in afterinsert   domain is Game 01/01/11 at 12:00 AM vs. null
+create player game status for all games for this player after insert player jenny, null (sub)
+ready to update 1 games
+saving default game status: 1 --> jenny  ....   jenny  is updated
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unsure' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Playing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Available' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Subbing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unknown' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotPlaying' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotAStatus' for the field 'status' results in  inList error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'null' for the field 'status' results in  nullable error --
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Verify that each player and game combination is unique ( no duplicate statuses  )--
+--Output from Verify that status associates to Player and Game--
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unsure' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Playing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Available' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Subbing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unknown' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotPlaying' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotAStatus' for the field 'status' results in  inList error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'null' for the field 'status' results in  nullable error --
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="2" name="GameControllerTests" package="teamtracker" tests="8" time="3.876" timestamp="2012-05-22T03:05:36">
+      <properties />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testList" time="2.649" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testIndex" time="0.205" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testCreate" time="0.109" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testSave" time="0.394" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testUpdate" time="0.172" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testShow" time="0.062" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testEdit" time="0.063" />
+
+      <testcase classname="teamtracker.GameControllerTests" name="testDelete" time="0.096" />
+
+      <system-out><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+in afterinsert   domain is Game 05/21/12 at 08:05 PM vs. null
+--Output from testUpdate--
+in afterinsert   domain is Game 05/21/12 at 08:05 PM vs. null
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+in afterinsert   domain is Game 05/21/12 at 08:05 PM vs. null
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="3" name="GameTests" package="teamtracker" tests="2" time="0.772" timestamp="2012-05-22T03:05:40">
+      <properties />
+
+      <testcase classname="teamtracker.GameTests" name="testDefaultLocationIsTbd" time="0.509" />
+
+      <testcase classname="teamtracker.GameTests" name="testCreateValidGame" time="0.063" />
+
+      <system-out><![CDATA[--Output from testDefaultLocationIsTbd--
+--Output from testCreateValidGame--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testDefaultLocationIsTbd--
+--Output from testCreateValidGame--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="4" name="OpponentControllerTests" package="teamtracker" tests="8" time="1.124" timestamp="2012-05-22T03:05:41">
+      <properties />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testList" time="0.249" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testIndex" time="0.079" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testCreate" time="0.078" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testSave" time="0.11" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testUpdate" time="0.093" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testShow" time="0.084" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testEdit" time="0.081" />
+
+      <testcase classname="teamtracker.OpponentControllerTests" name="testDelete" time="0.097" />
+
+      <system-out><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="5" name="PlayerControllerTests" package="teamtracker" tests="8" time="1.328" timestamp="2012-05-22T03:05:42">
+      <properties />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testList" time="0.561" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testIndex" time="0.096" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testCreate" time="0.078" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testSave" time="0.125" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testUpdate" time="0.109" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testShow" time="0.078" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testEdit" time="0.062" />
+
+      <testcase classname="teamtracker.PlayerControllerTests" name="testDelete" time="0.078" />
+
+      <system-out><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+--Output from testUpdate--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="6" name="PlayerGameStatusControllerTests" package="teamtracker" tests="8" time="1.087" timestamp="2012-05-22T03:05:43">
+      <properties />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testList" time="0.289" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testIndex" time="0.114" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testCreate" time="0.078" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testSave" time="0.164" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testUpdate" time="0.094" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testShow" time="0.109" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testEdit" time="0.078" />
+
+      <testcase classname="teamtracker.PlayerGameStatusControllerTests" name="testDelete" time="0.078" />
+
+      <system-out><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="mom-PC" id="7" name="Tests" package="teamtracker" tests="1" time="0.0" timestamp="2012-05-22T03:05:44">
+      <properties />
+
+      <testcase classname="teamtracker.Tests" name="testSomething" time="0.0" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

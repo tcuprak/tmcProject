@@ -1,0 +1,11 @@
+--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+in afterinsert   domain is Game 05/21/12 at 08:05 PM vs. null
+--Output from testUpdate--
+in afterinsert   domain is Game 05/21/12 at 08:05 PM vs. null
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+in afterinsert   domain is Game 05/21/12 at 08:05 PM vs. null

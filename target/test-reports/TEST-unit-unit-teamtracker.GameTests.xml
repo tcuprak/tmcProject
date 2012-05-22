@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="mom-PC" name="teamtracker.GameTests" tests="1" time="1.252" timestamp="2012-05-04T06:15:57">
+<testsuite errors="0" failures="0" hostname="mom-PC" name="teamtracker.GameTests" tests="2" time="0.772" timestamp="2012-05-22T03:05:40">
   <properties />
-  <testcase classname="teamtracker.GameTests" name="testCreateValidGame" time="1.22">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at java.util.Date.parse(Date.java:615)
-	at java.util.Date.&lt;init&gt;(Date.java:272)
-	at teamtracker.GameTests.testCreateValidGame(GameTests.groovy:28)
-</error>
-  </testcase>
-  <system-out><![CDATA[--Output from testCreateValidGame--
+  <testcase classname="teamtracker.GameTests" name="testDefaultLocationIsTbd" time="0.509" />
+  <testcase classname="teamtracker.GameTests" name="testCreateValidGame" time="0.063" />
+  <system-out><![CDATA[--Output from testDefaultLocationIsTbd--
+--Output from testCreateValidGame--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testCreateValidGame--
+  <system-err><![CDATA[--Output from testDefaultLocationIsTbd--
+--Output from testCreateValidGame--
 ]]></system-err>
 </testsuite>

@@ -7,7 +7,6 @@ class GameService {
      def allGames() {
 		print "calling getAll" 
 		def gameList 
-		gameList=Game.list(null)
-		println gameList
+		gameList=Game.list(null)		
     }
 }

@@ -48,7 +48,7 @@ class Player {
 	 * attached to a transient PlayerGameStatus */	
 	def afterInsert() {
 		println("create player game status for all games for this player after insert player ${this}")
-		PlayerGameStatus.withNewSession() {session ->
+		this.withNewSession() {session ->
 			def allGames = Game.list()
 			println("ready to update ${allGames.size()} games")
 

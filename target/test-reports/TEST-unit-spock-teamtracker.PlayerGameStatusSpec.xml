@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="mom-PC" name="teamtracker.PlayerGameStatusSpec" tests="10" time="0.452" timestamp="2012-05-22T03:05:45">
+  <properties />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify that each player and game combination is unique ( no duplicate statuses  )" time="0.218" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify that status associates to Player and Game" time="0.063" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Unsure&apos; for the field &apos;status&apos; results in  no error " time="0.015" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Playing&apos; for the field &apos;status&apos; results in  no error " time="0.032" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Available&apos; for the field &apos;status&apos; results in  no error " time="0.031" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Subbing&apos; for the field &apos;status&apos; results in  no error " time="0.015" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;Unknown&apos; for the field &apos;status&apos; results in  no error " time="0.016" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;NotPlaying&apos; for the field &apos;status&apos; results in  no error " time="0.016" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;NotAStatus&apos; for the field &apos;status&apos; results in  inList error " time="0.015" />
+  <testcase classname="teamtracker.PlayerGameStatusSpec" name="Verify PlayerGameStatus domain constraints: The value &apos;null&apos; for the field &apos;status&apos; results in  nullable error " time="0.016" />
+  <system-out><![CDATA[--Output from Verify that each player and game combination is unique ( no duplicate statuses  )--
+in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
+create player game status for all games for this player after insert player Yvonne, null (sub)
+ready to update 1 games
+saving default game status: 1 --> Yvonne  ....   Yvonne  is updated
+--Output from Verify that status associates to Player and Game--
+in afterinsert   domain is Game 01/01/11 at 12:00 AM vs. null
+create player game status for all games for this player after insert player jenny, null (sub)
+ready to update 1 games
+saving default game status: 1 --> jenny  ....   jenny  is updated
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unsure' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Playing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Available' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Subbing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unknown' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotPlaying' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotAStatus' for the field 'status' results in  inList error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'null' for the field 'status' results in  nullable error --
+]]></system-out>
+  <system-err><![CDATA[--Output from Verify that each player and game combination is unique ( no duplicate statuses  )--
+--Output from Verify that status associates to Player and Game--
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unsure' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Playing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Available' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Subbing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unknown' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotPlaying' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotAStatus' for the field 'status' results in  inList error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'null' for the field 'status' results in  nullable error --
+]]></system-err>
+</testsuite>

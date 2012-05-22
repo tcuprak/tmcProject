@@ -2,16 +2,160 @@ package teamtracker
 
 
 
-import grails.test.mixin.*
 import org.junit.*
+import grails.test.mixin.*
 
-/**
- * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
- */
 @TestFor(PlayerController)
+
+@Mock([ Player, Game])// had to mock Game as well as player
 class PlayerControllerTests {
 
-    void testSomething() {
-       fail "Implement me"
+
+    def populateValidParams(params) {
+      assert params != null
+      // Populate valid properties like...
+     params["firstName"] = 'Jennifer'
+    }
+
+    void testIndex() {
+        controller.index()
+        assert "/player/list" == response.redirectedUrl
+    }
+
+    void testList() {
+
+        def model = controller.list()
+
+        assert model.playerInstanceList.size() == 0
+        assert model.playerInstanceTotal == 0
+    }
+
+    void testCreate() {
+       def model = controller.create()
+
+       assert model.playerInstance != null
+    }
+
+    void testSave() {
+        controller.save()
+
+        assert model.playerInstance != null
+        assert view == '/player/create'
+
+        response.reset()
+
+		params.firstName="Frances"
+        populateValidParams(params)
+        controller.save()
+
+        assert response.redirectedUrl == '/player/show/1'
+        assert controller.flash.message != null
+        assert Player.count() == 1
+    }
+
+    void testShow() {
+        controller.show()
+
+        assert flash.message != null
+        assert response.redirectedUrl == '/player/list'
+
+		params["firstName"] = 'Jennifer'
+        populateValidParams(params)
+        def player = new Player(params)
+
+        assert player.save() != null
+
+        params.id = player.id
+
+        def model = controller.show()
+
+        assert model.playerInstance == player
+    }
+
+    void testEdit() {
+        controller.edit()
+
+        assert flash.message != null
+        assert response.redirectedUrl == '/player/list'
+
+		params["firstName"] = 'Jennifer'
+        populateValidParams(params)
+        def player = new Player(params)
+
+        assert player.save() != null
+
+        params.id = player.id
+
+        def model = controller.edit()
+
+        assert model.playerInstance == player
+    }
+
+    void testUpdate() {
+        controller.update()
+
+        assert flash.message != null
+        assert response.redirectedUrl == '/player/list'
+
+        response.reset()
+
+		params["firstName"] = 'Jennifer'
+        populateValidParams(params)
+        def player = new Player(params)
+
+        assert player.save() != null
+
+        // test invalid parameters in update
+        params.id = player.id
+        //add invalid values to params object
+		params["playerType"] = 'some invalid player type'
+        controller.update()
+
+        assert view == "/player/edit"
+        assert model.playerInstance != null
+
+        player.clearErrors()
+        params["playerType"] = 'sub'
+        populateValidParams(params)
+        controller.update()
+
+        assert response.redirectedUrl == "/player/show/$player.id"
+        assert flash.message != null
+
+        //test outdated version number
+        response.reset()
+        player.clearErrors()
+
+        populateValidParams(params)
+        params.id = player.id
+        params.version = -1
+        controller.update()
+
+        assert view == "/player/edit"
+        assert model.playerInstance != null
+        assert model.playerInstance.errors.getFieldError('version')
+        assert flash.message != null
+    }
+
+    void testDelete() {
+        controller.delete()
+        assert flash.message != null
+        assert response.redirectedUrl == '/player/list'
+
+        response.reset()
+
+        populateValidParams(params)
+        def player = new Player(params)
+
+        assert player.save() != null
+        assert Player.count() == 1
+
+        params.id = player.id
+
+        controller.delete()
+
+        assert Player.count() == 0
+        assert Player.get(player.id) == null
+        assert response.redirectedUrl == '/player/list'
     }
 }

@@ -89,7 +89,38 @@ class PlayerGameStatusSpec extends ConstraintUnitSpec {
 	}
 	def "Verify that each player and game combination is unique ( no duplicate statuses  )"() {
 		
-		// need to write this test and implement a solution ... current implementation allows this
+		
+		
+		//---------------------- create UUT using a static date
+		given:
+		def testName ="Yvonne"
+		def Date testDate = new Date("1/12/2011")
+		
+		mockDomain(Player,[[firstName:testName]])
+		mockDomain(Game, [[date:testDate]])
+
+		Game game= Game.findByDate(testDate)
+		Player player= Player.findByFirstName(testName)
+	
+
+		def  PlayerGameStatus uut;
+
+		//---------------------- add the same player, game 3 times
+		when:
+		uut = new PlayerGameStatus(player, game, "Subbing").save()
+		uut = new PlayerGameStatus(player, game, "Unknown").save()
+		uut = new PlayerGameStatus(player, game, "Unknown").save()
+		
+	
+
+		//----------------------
+		then:
+		// retrieve from DB
+
+		PlayerGameStatus[] result = PlayerGameStatus.findAll()
+		
+		assert (result.length ==1)
+		assert (result[0].status="Subbing")
 		
 	}
 	

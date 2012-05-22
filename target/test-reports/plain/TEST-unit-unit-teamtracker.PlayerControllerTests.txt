@@ -1,0 +1,37 @@
+Testsuite: teamtracker.PlayerControllerTests
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.328 sec
+------------- Standard Output ---------------
+--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+--Output from testUpdate--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+create player game status for all games for this player after insert player Jennifer, null (sub)
+ready to update 0 games
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testEdit--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testList took 0.561 sec
+Testcase: testIndex took 0.096 sec
+Testcase: testCreate took 0.078 sec
+Testcase: testSave took 0.125 sec
+Testcase: testUpdate took 0.109 sec
+Testcase: testShow took 0.078 sec
+Testcase: testEdit took 0.062 sec
+Testcase: testDelete took 0.078 sec

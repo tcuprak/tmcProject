@@ -1,0 +1,18 @@
+--Output from Verify that each player and game combination is unique ( no duplicate statuses  )--
+in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
+create player game status for all games for this player after insert player Yvonne, null (sub)
+ready to update 1 games
+saving default game status: 1 --> Yvonne  ....   Yvonne  is updated
+--Output from Verify that status associates to Player and Game--
+in afterinsert   domain is Game 01/01/11 at 12:00 AM vs. null
+create player game status for all games for this player after insert player jenny, null (sub)
+ready to update 1 games
+saving default game status: 1 --> jenny  ....   jenny  is updated
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unsure' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Playing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Available' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Subbing' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'Unknown' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotPlaying' for the field 'status' results in  no error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'NotAStatus' for the field 'status' results in  inList error --
+--Output from Verify PlayerGameStatus domain constraints: The value 'null' for the field 'status' results in  nullable error --

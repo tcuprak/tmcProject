@@ -1,40 +1,46 @@
 Testsuite: teamtracker.GameSpec
-Tests run: 11, Failures: 0, Errors: 0, Time elapsed: 1.633 sec
+Tests run: 13, Failures: 0, Errors: 0, Time elapsed: 0.533 sec
 ------------- Standard Output ---------------
---Output from Verify Game constraints: The value 'null' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'win' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'loss' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'tie' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error --
---Output from Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error --
---Output from Verify Game constraints: The value 'x' for the field 'result' results in  inList error --
---Output from Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error --
---Output from Verify Game constraints: The value 'null' for the field 'date' results in  nullable error --
+--Output from Verify Game string is in correct format--
+--Output from Verify Game date is in correct format--
+--Output from Verify Game domain constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'Mon May 21 20:05:45 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game domain constraints: The value 'null' for the field 'date' results in  nullable error --
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from Verify Game constraints: The value 'null' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'win' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'loss' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'tie' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error --
---Output from Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error --
---Output from Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error --
---Output from Verify Game constraints: The value 'x' for the field 'result' results in  inList error --
---Output from Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error --
---Output from Verify Game constraints: The value 'null' for the field 'date' results in  nullable error --
+--Output from Verify Game string is in correct format--
+--Output from Verify Game date is in correct format--
+--Output from Verify Game domain constraints: The value 'null' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'scheduled' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'win' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'loss' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'tie' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'forfeit' for the field 'result' results in  no error --
+--Output from Verify Game domain constraints: The value 'unknown' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'a very long string ' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'x' for the field 'result' results in  inList error --
+--Output from Verify Game domain constraints: The value 'Mon May 21 20:05:45 MST 2012' for the field 'date' results in  no error --
+--Output from Verify Game domain constraints: The value 'null' for the field 'date' results in  nullable error --
 ------------- ---------------- ---------------
 
-Testcase: Verify Game constraints: The value 'null' for the field 'result' results in  no error  took 1.206 sec
-Testcase: Verify Game constraints: The value 'scheduled' for the field 'result' results in  no error  took 0.041 sec
-Testcase: Verify Game constraints: The value 'win' for the field 'result' results in  no error  took 0.042 sec
-Testcase: Verify Game constraints: The value 'loss' for the field 'result' results in  no error  took 0.043 sec
-Testcase: Verify Game constraints: The value 'tie' for the field 'result' results in  no error  took 0.044 sec
-Testcase: Verify Game constraints: The value 'forfeit' for the field 'result' results in  no error  took 0.041 sec
-Testcase: Verify Game constraints: The value 'unknown' for the field 'result' results in  inList error  took 0.056 sec
-Testcase: Verify Game constraints: The value 'a very long string ' for the field 'result' results in  inList error  took 0.031 sec
-Testcase: Verify Game constraints: The value 'x' for the field 'result' results in  inList error  took 0.03 sec
-Testcase: Verify Game constraints: The value 'Mon May 07 21:24:28 MST 2012' for the field 'date' results in  no error  took 0.025 sec
-Testcase: Verify Game constraints: The value 'null' for the field 'date' results in  nullable error  took 0.025 sec
+Testcase: Verify Game string is in correct format took 0.246 sec
+Testcase: Verify Game date is in correct format took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'null' for the field 'result' results in  no error  took 0.015 sec
+Testcase: Verify Game domain constraints: The value 'scheduled' for the field 'result' results in  no error  took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'win' for the field 'result' results in  no error  took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'loss' for the field 'result' results in  no error  took 0.015 sec
+Testcase: Verify Game domain constraints: The value 'tie' for the field 'result' results in  no error  took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'forfeit' for the field 'result' results in  no error  took 0.015 sec
+Testcase: Verify Game domain constraints: The value 'unknown' for the field 'result' results in  inList error  took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'a very long string ' for the field 'result' results in  inList error  took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'x' for the field 'result' results in  inList error  took 0.015 sec
+Testcase: Verify Game domain constraints: The value 'Mon May 21 20:05:45 MST 2012' for the field 'date' results in  no error  took 0.016 sec
+Testcase: Verify Game domain constraints: The value 'null' for the field 'date' results in  nullable error  took 0.015 sec
