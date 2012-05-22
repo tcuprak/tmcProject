@@ -9,14 +9,9 @@ class PlayerGameStatusController {
     def index() {
         redirect(action: "list", params: params)
     }
+
 	
-	def gameList= {
-		println "!!!!!!!!!!!!!!!!!!!!    PlayerGameStatus gameList action called "
-		def myList = gameInstanceList()
-		println "here is the list ${myList}"
-		myList
-		
-	}
+
 
     def list() {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)

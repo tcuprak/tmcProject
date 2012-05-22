@@ -1,4 +1,3 @@
-
 <%@ page import="teamtracker.PlayerGameStatus"%>
 <%@ page import="teamtracker.Game"%>
 
@@ -21,7 +20,7 @@
 			</g:link> </span>
 	</div>
 	<div class="body">
-		<h1>Who's Coming?</h1>
+		<h1>Who's Coming ?</h1>
 		<%--  Display error if exists --%>
 		<g:if test="${flash.message}">
 			<div class="message">
@@ -38,11 +37,12 @@
 						<g:sortableColumn property="id"
 							title="${message(code: 'playerGameStatus.id.label', default: 'Player')}" />
 
-						<g:each in="${gameInstanceList}" status="gameIndex" var="nextGame">
+						<g:each in="${playerGameStatusInstanceList[0].game.list()}"
+							status="gameIndex" var="nextGame">
 
 
 							<th><g:formatDate format="MMMM dd" date="${nextGame.date}" />
-								
+
 							</th>
 
 						</g:each>
@@ -50,8 +50,7 @@
 
 				</thead>
 				<tbody>
-
-					<g:each in="${playerInstanceList}" status="playerIndex"
+					<g:each in="${playerGameStatusInstanceList[0].player.list()}" status="playerIndex"
 						var="nextPlayer">
 						<tr class="${(playerIndex % 2) == 0 ? 'odd' : 'even'}">
 
@@ -84,6 +83,7 @@
 
 
 					</g:each>
+
 				</tbody>
 			</table>
 		</div>

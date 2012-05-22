@@ -21,7 +21,7 @@
 			</g:link> </span>
 	</div>
 	<div class="body">
-		<h1>Who's Coming?</h1>
+		<h1>Who's Coming sdflkjsd;lf?</h1>
 		<%--  Display error if exists --%>
 		<g:if test="${flash.message}">
 			<div class="message">
