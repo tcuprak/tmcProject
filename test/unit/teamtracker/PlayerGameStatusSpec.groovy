@@ -1,6 +1,7 @@
 package teamtracker
 
 import static org.junit.Assert.*
+import spock.lang.Specification
 import grails.test.mixin.domain.DomainClassUnitTestMixin
 
 //import grails.test.mixin.*
@@ -16,7 +17,7 @@ import spock.lang.Unroll
 //@TestMixin(GrailsUnitTestMixin)
 @TestFor(PlayerGameStatus)
 @TestMixin(DomainClassUnitTestMixin)
-class PlayerGameStatusSpec extends ConstraintUnitSpec {
+class PlayerGameStatusSpec extends ConstraintUnitSpec{
 
 	def setup() {
 		//mock a game with some data
@@ -43,14 +44,12 @@ class PlayerGameStatusSpec extends ConstraintUnitSpec {
 		where:
 
 		error                  | field     | val
-
 		'no'                   | 'status'  | 'Unsure'
 		'no'                   | 'status'  | 'Playing'
 		'no'                   | 'status'  | 'Available'
 		'no'                   | 'status'  | 'Subbing'
 		'no'                   | 'status'  | 'Unknown'
 		'no'                   | 'status'  | 'NotPlaying'
-
 		'inList'               | 'status'  | 'NotAStatus'
 		'nullable'             | 'status'  | null
 
@@ -89,8 +88,7 @@ class PlayerGameStatusSpec extends ConstraintUnitSpec {
 	}
 	def "Verify that each player and game combination is unique ( no duplicate statuses  )"() {
 		
-		
-		
+			
 		//---------------------- create UUT using a static date
 		given:
 		def testName ="Yvonne"
@@ -123,28 +121,4 @@ class PlayerGameStatusSpec extends ConstraintUnitSpec {
 		assert (result[0].status="Subbing")
 		
 	}
-	
-	
-	//
-	//
-	//	def "Verify Game string is in correct format"() {
-	//
-	//		//---------------------- create UUT using a static date
-	//		given:
-	//
-	//		def  Game  uut = new Game(date: new Date("1/2/2011"), opponent:new Opponent(name:'Chicos Bail Bonds'))
-	//
-	//		//----------------------
-	//		when:
-	//		def result = uut.toString();
-	//
-	//		//----------------------
-	//		then:
-	//		result.equals("01/02/11 at 12:00 AM vs. Chicos Bail Bonds")
-	//
-	//
-	//	}
-
-
-
 }

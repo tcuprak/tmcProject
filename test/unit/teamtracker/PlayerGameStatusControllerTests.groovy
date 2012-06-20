@@ -161,28 +161,5 @@ class PlayerGameStatusControllerTests {
 		assert response.redirectedUrl == '/playerGameStatus/list'
 	}
 
-	void testGameList() {
-
-
-		populateValidParams(params)
-		def playerGameStatus = new PlayerGameStatus(params)
-
-		assert playerGameStatus.save() != null
-
-		params.id = playerGameStatus.id
-
-		def games = controller.gameList()
-
-		println games
-		
-		playerGameStatus = new PlayerGameStatus(params)
-
-		assert playerGameStatus.save() != null
-
-		params.id = playerGameStatus.id
-
-		games = controller.gameList()
-
-		println games
-	}
+	
 }

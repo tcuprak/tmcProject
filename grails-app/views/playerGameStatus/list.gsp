@@ -69,7 +69,7 @@
 											from="${nextStatus.constraints.status.inList}"
 											value="${nextStatus?.status}"
 											 /> <img
-										src="${resource(dir:'images\\icon', file:filename)}"
+										src="${resource(dir:'images/icon', file:filename)}"
 										alt="${filename}" border="0" />
 									</td>
 

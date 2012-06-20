@@ -52,22 +52,22 @@ class BootStrap {
 		println "***creating game 4"
 		def g4=  new Game(date:new Date('6/26/2011')  , opponent1:opp5)				
 		g4.save()
-
-		println "***creating game 5"
-		def g5= new Game(date:new Date('6/29/2011') , opponent1:opp2)		
-		g5.save()
-
-		println "***creating game 6"
-		def g6= new Game(date:new Date('9/26/2011')  , opponent1:opp4)		
-		g6.save()
-
-		println "***creating game 7"
-		def g7= new  Game(date:new Date('7/29/2011' ) , opponent1:opp1)		
-		g7.save()
-
-		println "***creating game 8"
-		def g8= new Game(date:new Date('8/29/2011')  , opponent1:opp3)		
-		g8.save()
+//
+//		println "***creating game 5"
+//		def g5= new Game(date:new Date('6/29/2011') , opponent1:opp2)		
+//		g5.save()
+//
+//		println "***creating game 6"
+//		def g6= new Game(date:new Date('9/26/2011')  , opponent1:opp4)		
+//		g6.save()
+//
+//		println "***creating game 7"
+//		def g7= new  Game(date:new Date('7/29/2011' ) , opponent1:opp1)		
+//		g7.save()
+//
+//		println "***creating game 8"
+//		def g8= new Game(date:new Date('8/29/2011')  , opponent1:opp3)		
+//		g8.save()
 
 
 
@@ -76,21 +76,22 @@ class BootStrap {
 		p1.save()
 		def  p2 = new Player(firstName:"Yvonne", lastName:"Moritz", status:"active")
 		p2.save()
-		def  p3 = new Player(firstName:"Ann", lastName:"Williamson", status:"sub")
-		p3.save()
-		def  p4 = new Player(firstName:"Yvonne", lastName:"Murphy", status:"retired")
-		p4.save()
+//		def  p3 = new Player(firstName:"Ann", lastName:"Williamson", status:"sub")
+//		p3.save()
+//		def  p4 = new Player(firstName:"Yvonne", lastName:"Murphy", status:"retired")
+//		p4.save()
 		println"***created players"
 		ourthings <<p1
 		ourthings <<p2
-		ourthings <<p3
-		ourthings <<p4
+//		ourthings <<p3
+//		ourthings <<p4
 		
 		def pgs1 = new PlayerGameStatus(p2, g1,"Playing");
+		pgs1.save()
 		
-		println "***creating a new game after players exist"
-		def g9= new Game(date:new Date('8/30/2011')  , opponent1:opp3).save()
-		ourthings << g9
+//		println "***creating a new game after players exist"
+//		def g9= new Game(date:new Date('8/30/2011')  , opponent1:opp3).save()
+//		ourthings << g9
 		
 		
 

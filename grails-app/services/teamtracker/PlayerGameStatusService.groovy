@@ -31,7 +31,7 @@ class PlayerGameStatusService {
 	}
 
 	def defaultStatus() {
-			"Unknown"
+		"Unknown"
 	}
 
 	def allGames(){
@@ -39,5 +39,59 @@ class PlayerGameStatusService {
 		allGameList = gameService?.allGames()
 		println "Gamelist: " + allGameList
 		return allGameList
+	}
+
+
+	/** Determine how many players are attending a game.  If a playergame status 
+	 * is set to "Playing" then add to the count, otherwise do not count that player
+	 * 
+	 * @param game  the game that is being counted.
+	 * @return the number of players attending the game that is associated with the 
+	 * given game id.
+	 */
+	def attendanceCount(Game game)	{
+
+		// could write a single query to get this I would think
+		// but my first attempt ( using findAllByGameAndStatus) did not work
+		PlayerGameStatus[] playerStatusList = PlayerGameStatus.findAllByGame(game)
+
+		def count = 0
+		playerStatusList.each{
+			if (it.status.equals("Playing")){
+				count++
+			}
+		}
+
+		return count
+
+	}
+
+	/** Returns a list of players who are subs that are available for this game.
+	 * 
+	 * @param game the game to use to determine sub list.
+	 *  @return the list of subs that are available for the game.
+	 */
+	def List<Player>  subList(Game gameArg){
+
+		// could write a single query to get this I would think
+
+
+		def gamesOnDayQuery = PlayerGameStatus.where {game==gameArg}
+		def subListQuery = gamesOnDayQuery.where{player.playerType=="sub"}
+		def availableSubListQuery = subListQuery.where{status=="Available"}
+
+	
+		Collection<PlayerGameStatus> subList = availableSubListQuery.findAll()
+		print "================ found these  subs: " + subList
+		
+		// I don't know how to project from the query, so I am just looping 
+		// through to get players.  TOLEARN:  How to do projection
+		def List<Player> subListPlayers = new ArrayList<Player>()
+		subList.each{
+			def Player player = it.player
+			subListPlayers.add(player)
+		}
+
+		return subListPlayers
 	}
 }
