@@ -19,7 +19,7 @@
                         tests
                     
                         with
-                        one failure
+                        3 errors
                         .
                     </p>
 </div>
@@ -43,7 +43,7 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite failure">
+<div class="testsuite error">
 <div class="header">
 <h2>PlayerGameStatusServiceSpec</h2>
 <h3>
@@ -52,129 +52,134 @@
                         tests
                     
                         with
-                        one failure
+                        3 errors
                         .
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Verify attendance count is correct for zero players">
+<div class="testcase clearfix error grid_8 alpha omega" data-name="Verify attendance count is correct for zero players">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">Verify attendance count is correct for zero players</b>
+<span class="icon error"></span><b class="testname message error">Verify attendance count is correct for zero players</b>
 </p>
-<p class="summary">Executed in 2.901 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Verify attendance count is correct for one player ">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Verify attendance count is correct for one player </b>
-</p>
-<p class="summary">Executed in 0.158 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Verify attendance count is correct for two players ">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Verify attendance count is correct for two players </b>
-</p>
-<p class="summary">Executed in 0.14 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix failure grid_8 alpha omega" data-name="Verify sub shows up on sub list ">
-<div class="grid_3 alpha">
-<p>
-<span class="icon failure"></span><b class="testname message failure">Verify sub shows up on sub list </b>
-</p>
-<p class="summary">Executed in 0.43 seconds.</p>
+<p class="summary">Executed in 2.202 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
 <p>
-<b class="message">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;</b>
+<b class="message">Cannot set property 'status' on null object</b>
 </p>
-<pre>junit.framework.AssertionFailedError: java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;
-	at org.spockframework.util.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:100)
-	at teamtracker.PlayerGameStatusServiceSpec.Verify sub shows up on sub list (PlayerGameStatusServiceSpec.groovy:166)
+<pre>java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
 </pre>
 </div>
 </div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="Verify attendance count is correct for one player ">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">Verify attendance count is correct for one player </b>
+</p>
+<p class="summary">Executed in 0.109 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Cannot set property 'status' on null object</b>
+</p>
+<pre>java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="Verify attendance count is correct for two players ">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">Verify attendance count is correct for two players </b>
+</p>
+<p class="summary">Executed in 0.093 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Cannot set property 'status' on null object</b>
+</p>
+<pre>java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Verify sub shows up on sub list ">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Verify sub shows up on sub list </b>
+</p>
+<p class="summary">Executed in 0.843 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
 <pre class="stdout">--Output from Verify attendance count is correct for zero players--
-create player game status for all games for this player after insert player Janice, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Sally, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Cindy, null (sub)
-ready to update 0 games
 in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
- Janice, null (sub) updating === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Janice, null (sub) update done === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) updating === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) update done === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) updating === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) update done === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
+create player game status for all games for this player after insert player Janice, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Janice  ....   Janice  is updated
+create player game status for all games for this player after insert player Sally, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Sally  ....   Sally  is updated
+create player game status for all games for this player after insert player Cindy, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Cindy  ....   Cindy  is updated
 ++++++++++++ 01/12/11 at 12:00 AM vs. null
 ++++++++++++ Janice, null (sub)
-++++++++++++ PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ]
+++++++++++++ null
 --Output from Verify attendance count is correct for one player --
-create player game status for all games for this player after insert player Janice, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Sally, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Cindy, null (sub)
-ready to update 0 games
 in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
- Janice, null (sub) updating === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Janice, null (sub) update done === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) updating === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) update done === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) updating === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) update done === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
+create player game status for all games for this player after insert player Janice, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Janice  ....   Janice  is updated
+create player game status for all games for this player after insert player Sally, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Sally  ....   Sally  is updated
+create player game status for all games for this player after insert player Cindy, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Cindy  ....   Cindy  is updated
 --Output from Verify attendance count is correct for two players --
-create player game status for all games for this player after insert player Janice, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Sally, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Cindy, null (sub)
-ready to update 0 games
 in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
- Janice, null (sub) updating === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Janice, null (sub) update done === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) updating === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) update done === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) updating === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) update done === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
+create player game status for all games for this player after insert player Janice, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Janice  ....   Janice  is updated
+create player game status for all games for this player after insert player Sally, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Sally  ....   Sally  is updated
+create player game status for all games for this player after insert player Cindy, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Cindy  ....   Cindy  is updated
 ==========01/12/11 at 12:00 AM vs. null ==== Janice, null (sub)
 --Output from Verify sub shows up on sub list --
-create player game status for all games for this player after insert player Janice, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Sally, null (sub)
-ready to update 0 games
-create player game status for all games for this player after insert player Cindy, null (sub)
-ready to update 0 games
 in afterinsert   domain is Game 01/12/11 at 12:00 AM vs. null
- Janice, null (sub) updating === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Janice, null (sub) update done === PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) updating === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Sally, null (sub) update done === PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) updating === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
- Cindy, null (sub) update done === PlayerGameStatus [  Cindy  :  Wed Jan 12 00:00:00 MST 2011  :  Unknown ] 
+create player game status for all games for this player after insert player Janice, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Janice  ....   Janice  is updated
+create player game status for all games for this player after insert player Sally, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Sally  ....   Sally  is updated
+create player game status for all games for this player after insert player Cindy, null (sub)
+ready to update 1 games
+saving default game status: 1 --&gt; Cindy  ....   Cindy  is updated
 ==========01/12/11 at 12:00 AM vs. null ==== Janice, null (sub)
 ==============   in test : PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Available ]
 ==============   player in test : Sally, null (sub)
-==============   in test : PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Playing ]
-==============   in test : PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Playing ]
-================ found these  subs: [PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Available ], PlayerGameStatus [  Sally  :  Wed Jan 12 00:00:00 MST 2011  :  Playing ]]</pre>
+==============   in test : PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Playing ]
+==============   in test : PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Playing ]
+================ found these  subs: [PlayerGameStatus [  Janice  :  Wed Jan 12 00:00:00 MST 2011  :  Playing ]]</pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>

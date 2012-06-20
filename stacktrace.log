@@ -48204,3 +48204,57 @@ junit.framework.AssertionFailedError: java.lang.AssertionError: expected:<1> but
 	at org.junit.Assert.assertEquals(Assert.java:456)
 	at org.spockframework.util.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:100)
 	at teamtracker.PlayerGameStatusServiceSpec.Verify sub shows up on sub list (PlayerGameStatusServiceSpec.groovy:166)
+2012-06-20 13:34:28,330 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
+2012-06-20 13:34:28,330 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
+2012-06-20 13:34:28,346 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
+2012-06-20 13:34:28,346 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
+2012-06-20 13:34:28,346 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
+2012-06-20 13:34:28,346 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for zero players(PlayerGameStatusServiceSpec.groovy:36)
+2012-06-20 13:34:28,487 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+2012-06-20 13:34:28,487 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+2012-06-20 13:34:28,487 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+2012-06-20 13:34:28,487 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+2012-06-20 13:34:28,487 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+2012-06-20 13:34:28,487 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for one player (PlayerGameStatusServiceSpec.groovy:64)
+2012-06-20 13:34:28,581 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
+2012-06-20 13:34:28,581 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
+2012-06-20 13:34:28,581 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
+2012-06-20 13:34:28,581 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
+2012-06-20 13:34:28,581 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
+2012-06-20 13:34:28,581 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot set property 'status' on null object
+	at teamtracker.PlayerGameStatusServiceSpec.Verify attendance count is correct for two players (PlayerGameStatusServiceSpec.groovy:98)
