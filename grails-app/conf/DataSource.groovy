@@ -14,7 +14,15 @@ environments {
     development {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:h2:mem:devDb;MVCC=TRUE"
+           // url = "jdbc:h2:mem:devDb;MVCC=TRUE"
+			driverClassName = "org.postgresql.Driver"
+			dialect = org.hibernate.dialect.PostgreSQLDialect
+		
+			uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")
+	
+			url = "jdbc:postgresql://"+uri.host+uri.path
+			username = "mom"
+			password =  "pg"
         }
     }
     test {
