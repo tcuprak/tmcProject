@@ -4,16 +4,17 @@ package teamtracker
 class PlayerGameStatus {
 
 	String status
-	static belongsTo=[player:Player, game:Game]
- 
+	static belongsTo=[game:Game,player:Player]
+	Player player
+	Game game
 	static constraints = {
 		game(nullable:false)
-		
+
 		// do not allow the same player/game to create a duplicate record
 		player (unique: 'game', nullable:false)
 
 		status(inList:PlayerGameStatusService.statusType.keySet().asType(List.class))
-	}  
+	}
 
 	@Override
 	public String toString() {
@@ -21,13 +22,18 @@ class PlayerGameStatus {
 	}
 
 
+//	public PlayerGameStatus(long player, long game, String status) {
+//		super();
+//		this.player = Player.findById(player)
+//		this.game = Game.findById(game)
+//		this.status = status
+//	}
+
+
 	public PlayerGameStatus(Player player, Game game, String status) {
-		super();
 		this.player = player
 		this.game = game
 		this.status = status
 	}
-	public PlayerGameStatus() {
-		super();
-	}
+	
 }

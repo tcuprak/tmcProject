@@ -80,11 +80,11 @@ class PlayerGameStatusService {
 		def subListQuery = gamesOnDayQuery.where{player.playerType=="sub"}
 		def availableSubListQuery = subListQuery.where{status=="Available"}
 
-	
+
 		Collection<PlayerGameStatus> subList = availableSubListQuery.findAll()
 		print "================ found these  subs: " + subList
-		
-		// I don't know how to project from the query, so I am just looping 
+
+		// I don't know how to project from the query, so I am just looping
 		// through to get players.  TOLEARN:  How to do projection
 		def List<Player> subListPlayers = new ArrayList<Player>()
 		subList.each{
@@ -94,4 +94,39 @@ class PlayerGameStatusService {
 
 		return subListPlayers
 	}
+
+	/** 
+	 * provide status for a player for all existing games.
+	 * */
+	def createPlayerGameStatusForNewPlayer(long playerId){
+
+		Player player = Player.get(playerId)
+		println("====================  just retrieved player " + player)
+
+	PlayerGameStatus.withNewSession{
+		
+		  
+
+			def List<PlayerGameStatus> statusList = new ArrayList<PlayerGameStatus>()
+
+			def allGames = Game.list()
+
+			allGames.each {
+				println("creating pgs for " + player + " and " +it)
+				// why is this call to this service limited to 8 calls ???  the app hangs after that number
+				//def playerGameStatus = new PlayerGameStatus( this,it,playerGameStatusService.defaultStatus())
+				def playerGameStatus = new PlayerGameStatus( player,it,"Unknown")
+				statusList.add(playerGameStatus)
+
+			}
+			println("created playerGameStatuses for " + player)
+			println("status list " + statusList)
+			statusList.each{ 
+				
+				it.save()}
+		}
+
+
+	}
 }
+

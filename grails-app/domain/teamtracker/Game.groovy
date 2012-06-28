@@ -8,6 +8,8 @@ package teamtracker
  */
 class Game {
 
+	
+
 	Date date
 	Opponent opponent
 	String location = "TBD"
@@ -15,16 +17,15 @@ class Game {
 	Boolean weAreHomeTeam
 	String result
 	String notes
-	
+
 	static hasMany = [playerStatus:PlayerGameStatus]
-	
+
 
 	// load the opponents when we load this
 	// not a big performance hit and
 	// if we don't, toString will break
-	static mapping = {
-		opponent lazy:false
-	}
+	static mapping = { opponent lazy:false }
+	//	static mapping = { opponent lazy:false,  playerStatus cascade:'delete' }
 
 
 	String toString(){
@@ -43,7 +44,7 @@ class Game {
 
 	static constraints = {
 		date(nullable:false)
-		opponent(nullable:true)		
+		opponent(nullable:true)
 		location(nullable:true)
 		field(nullable:true)
 		weAreHomeTeam(nullable:true)
@@ -58,41 +59,27 @@ class Game {
 		notes(nullable:true)
 	}
 
-	/**  After inserting a new game, make sure we create the PlayerGameStatus that we need for all existing players */
 
-	def afterInsert() {
-		this.withNewSession() {session ->
-			def allPlayers = Player.list()
-			println "in afterinsert   domain is Game ${this}"
+	/** Before inserting a newly created Game, it is necessary that we
+	 * provide status for that game for all existing Players.
+	 */
+	def beforeInsert() {
+		println("====================  preparing to insert game " + this.id)
 
-			allPlayers.each {
+		def allPlayers = Player.list()
+		
+		allPlayers?.each {
+			println("creating pgs for " + this + " and " +it)
+			playerStatus.add( new PlayerGameStatus( it,this,"Unknown"))
 
-				def status = new PlayerGameStatus( it,this, "Unknown")
-
-				println(  " ${it} updating === ${status} ")
-				status.save()
-				println(  " ${it} update done === ${status} ")
-			}
 		}
 	}
+	
+	public Game() {
+		super();		
+		playerStatus = new ArrayList()
 
-	/** TBD -- use cascading deletes correctly
-	 * Before deleting a game, make sure we delete the PlayerGameStatus that we need for all existing players */
+	}
 
-//	def beforeDelete() {
-//		println "in beforeDelete   domain is Game ${this}"
-//		this.withNewSession() {session ->
-//			def statusToRemove = PlayerGameStatus.findByGame(this)
-//
-//			println(  " need to remove ${statusToRemove.count()}  ")
-//
-//			statusToRemove.each {
-//
-//				println(  " ${it} will be deleted ")
-//				it.delete()
-//
-//				println(  " ${it} remove done  ")
-//			}
-//		}
-//	}
 }
+

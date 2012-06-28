@@ -37,7 +37,7 @@
 						<g:sortableColumn property="id"
 							title="${message(code: 'playerGameStatus.id.label', default: 'Player')}" />
 
-						<g:each in="${playerGameStatusInstanceList[0].game.list()}"
+						<g:each in="${playerGameStatusInstanceList[0]?.game?.list()}"
 							status="gameIndex" var="nextGame">
 
 
@@ -50,7 +50,7 @@
 
 				</thead>
 				<tbody>
-					<g:each in="${playerGameStatusInstanceList[0].player.list()}" status="playerIndex"
+					<g:each in="${playerGameStatusInstanceList[0]?.player?.list()}" status="playerIndex"
 						var="nextPlayer">
 						<tr class="${(playerIndex % 2) == 0 ? 'odd' : 'even'}">
 

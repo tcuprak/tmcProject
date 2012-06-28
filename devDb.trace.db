@@ -1,0 +1,9 @@
+06-21 14:52:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "GAME" not found; SQL statement:
+alter table game drop constraint FK304BF219341F0D [42102-164]
+06-21 14:52:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYER_GAME_STATUS" not found; SQL statement:
+alter table player_game_status drop constraint FK274C3C81809ACC6D [42102-164]
+06-21 14:52:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYER_GAME_STATUS" not found; SQL statement:
+alter table player_game_status drop constraint FK274C3C8129CE814D [42102-164]
